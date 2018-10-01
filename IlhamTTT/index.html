@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TIC TAC TOE</title>
+
+    </head>
+    
+    <link rel="stylesheet" href='css/ttt.css' />
+    <script src="js/ttt.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+   
+    <body background="loop6.gif">
+        
+        <div id="buttonstyle"></div>
+        <div ><h1>TicTacToe!</h1></div>
+        
+        <div id="welcome"> </div>
+
+        
+        
+        <div id='resultmessage'> </div>
+        
+        
+        <div id="score"></div>
+  
+    
+        <div id="playerprompt"  ></div>
+
+        <div id="thegame">
+            <button id="row11" class="btn_start" onClick="handleIcon(this.id)" value=""></button>
+            <button id="row12" class="btn_start" onClick="handleIcon(this.id)" value=""></button>
+            <button id="row13" class="btn_start" onClick="handleIcon(this.id)" value=""></button>
+            <button id="row21" class="btn_start" onClick="handleIcon(this.id)" value=""></button>
+            <button id="row22" class="btn_start" onClick="handleIcon(this.id)" value=""></button>
+            <button id="row23" class="btn_start" onClick="handleIcon(this.id)" value=""></button>
+            <button id="row31" class="btn_start" onClick="handleIcon(this.id)" value=""></button>
+            <button id="row32" class="btn_start" onClick="handleIcon(this.id)" value=""></button>
+            <button id="row33" class="btn_start" onClick="handleIcon(this.id)" value=""></button>
+        
+        
+            <button id="btn_replay" onClick="replay()">Replay</button> 
+            <button id="btn_reset" onClick="reset_game()">Reset</button>
+        </div>
+              
+        <script>
+            
+            entername();
+                    
+        </script>
+    
+    </body>
+    
+</html>
